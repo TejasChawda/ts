@@ -1,0 +1,12 @@
+STEPS TO INITIATALISE A PROJECT WITH TS
+________________________________________
+
+Create a project - [ npm init -y ]
+Install node and npm 
+Install typescript inside the project - [ npm install typescript ]
+Create a typescript config file - [ npx tsc --init ]
+Code something in TS
+Compile it into JS - [ tsc ]
+Run the ts compiled into js file 
+
+________________________________________________________________________________________________________________________
