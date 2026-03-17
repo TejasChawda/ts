@@ -1,4 +1,4 @@
-STEPS TO INITIATALISE A PROJECT WITH TS
+STEPS TO INITIALIZE A PROJECT WITH TS
 ________________________________________
 
 Create a project - [ npm init -y ]
