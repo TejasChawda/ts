@@ -53,3 +53,41 @@ function calcArea(x: number, y?: number): number {
 
 console.log(calcArea(1));
 console.log(calcArea(2,4));
+
+/**
+ * Interfaces
+ * 
+ * These are like creating custom types
+ */
+
+interface Person{
+    name: String
+    age: number
+}
+
+interface Employee extends Person{
+    empId: number
+}
+
+const emp1: Employee = {
+    name: "Tejas",
+    age: 25,
+    empId: 1267
+}
+
+const emp2: Employee = {
+    name: "Kumar",
+    age: 25,
+    empId: 1269
+}
+
+function getAllEmpNames(emps: Person[]): String[]{
+    let empNames = [] as String[]
+    for (const emp of emps) {
+        empNames.push(emp.name);
+    }
+
+    return empNames;
+}
+
+console.log(getAllEmpNames([emp1, emp2]));
