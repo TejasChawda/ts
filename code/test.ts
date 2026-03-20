@@ -57,7 +57,7 @@ console.log(calcArea(2,4));
 /**
  * Interfaces
  * 
- * These are like creating custom types
+ * These are like creating custom types but suitable for objects
  */
 
 interface Person{
