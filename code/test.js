@@ -36,4 +36,22 @@ function calcArea(x, y) {
 }
 console.log(calcArea(1));
 console.log(calcArea(2, 4));
+const emp1 = {
+    name: "Tejas",
+    age: 25,
+    empId: 1267
+};
+const emp2 = {
+    name: "Kumar",
+    age: 25,
+    empId: 1269
+};
+function getAllEmpNames(emps) {
+    let empNames = [];
+    for (const emp of emps) {
+        empNames.push(emp.name);
+    }
+    return empNames;
+}
+console.log(getAllEmpNames([emp1, emp2]));
 //# sourceMappingURL=test.js.map
